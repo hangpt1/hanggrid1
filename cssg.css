@@ -1,0 +1,480 @@
+.gridnav{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 20px;
+    
+
+
+    
+}
+
+.gridnav div{
+    background-color: rgba(255, 255, 255, 0.8);
+    
+    
+}
+.logo{
+    width: 70%;
+    padding: 10px; 
+    grid-column: 2 / 5;
+}
+.menu{
+    margin-left: 100px;
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+.menu1{
+    font-size: 20px;
+    margin-left: 20px;
+    text-align: center;
+    
+}
+
+.slice{
+    margin-top: 50px;
+    background: rgba(0, 0, 0, 0.33) url("./anh/image/01.jpg");
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    
+}
+.content{
+    
+    padding-top: 50px;
+    margin-left: 100px;
+    width: 40%; 
+    height: 700px;
+    color: rgb(46, 187, 187);
+}
+.content h1{
+    color: aliceblue;
+    font-size: 60px;
+}
+.content button{
+    transition-duration: 0.2s;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(46, 187, 187);
+    border-radius: 30px;
+    border: none;
+    margin-top: 50px;
+    color: white;
+    font-size: 20px;
+}
+.content button:hover{
+    background-color: white; /* white */
+    border: 1px solid;
+    color: rgb(46, 187, 187);
+}
+.aboutus{
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+    margin-top: 50px;
+    height: 550px;
+    background-color: rgb(245, 247, 247);
+}
+.img2{
+    position: absolute;
+    width: 40%;
+    height: 450px;
+    margin-left: 820px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.aboutus div{
+    width: 50%;
+    padding-top: 40px;
+    padding-left: 100px;
+}
+.aboutus button{
+    transition-duration: 0.2s;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(46, 187, 187);
+    border-radius: 30px;
+    border: none;
+    margin-top: 50px;
+    color: white;
+    font-size: 20px;
+}
+.aboutus button:hover {
+    background-color: white; /* white */
+    border: 1px solid;
+    color: rgb(46, 187, 187);
+  }
+.aboutus h3{
+    color: rgb(3, 137, 106);
+    
+}
+
+.service{
+    margin-top: 50px;
+    background: rgba(0, 0, 0, 0.33) url("./anh/image/menu\ 10.jpg");
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+
+}
+.tieude{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+.divto{
+    color: aliceblue;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    text-align: center;
+    justify-content: center;
+   
+
+
+}
+.divnho{
+    width: 90%;
+    margin-left: 20px;
+}
+.divnho h4{
+    color: aqua;
+    font-size: 30px;
+
+}
+.serviceanh{
+    width: 100%;
+    height: 400px;
+    border-radius: 5px;
+}
+
+
+
+
+
+.osm{
+    background-color: white;
+    margin-top: 50px;
+    background-color: rgb(226, 226, 247);
+
+}
+.osm h1{
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+.osm div{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(226, 226, 247);
+    padding: 20px;
+    font-size: 15px;
+    gap: 10px;
+  }
+  .sf{
+    width:100%;
+  }
+  .sf img{
+    width: 150px;
+    border-radius: 50%;
+    height: auto;
+  }
+.oh{
+    margin-top: 50px;
+    background: rgba(0, 0, 0, 0.33) url("./anh/image/09.jpg");
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;}
+.ohdiv1{
+    position: relative;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+
+}
+.ohdiv1 h1{
+    color:rgb(4, 230, 196);
+    font-size: 40px;
+}
+.ohdiv1 h3{
+    color:rgb(4, 230, 196);
+    font-size: 20px;
+}
+.ohdiv2{
+    position: relative;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+.og{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: aliceblue;
+    margin-top: 50px;
+    height: 1000px;
+}
+.ogimg{
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.og img{
+    width: 310px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.latest{
+    margin-top: 50px;
+    background: rgba(0, 0, 0, 0.33) url("./anh/image/blog\ 01\ 2.jpg");
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    
+
+}
+.latestnho{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+    justify-content: center;
+   
+   
+}
+.latestnho div{
+    margin-top: 20px;
+    width: 95%;
+    height: 500px;
+    color: aliceblue;
+    border: 0.01px solid snow;
+
+    
+}
+.latestnho div:hover{
+    background-image: url("./anh/image/blog\ 02\ 2.jpg") ;
+    width: 95%
+}
+.allaboutcoffe{
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 4px;
+    
+}
+.latestdiv1{
+    text-align: center;
+    border: none !important;
+    background-image: none !important;
+}
+.latestdiv1 h1{
+    color:rgb(4, 230, 196) ;
+    font-size: 50px;
+    margin-top: 100px;
+}
+.latestdiv1 p{
+    font-size: 20px;
+    margin-top: 1px;
+}
+
+
+
+.rd{
+    display: grid;
+    height: 600px;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    background-color:rgb(244, 239, 239);
+}
+.rddiv{
+    width: 400px;
+    height: 500px;
+    background-color:white;
+    margin-left: 30px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 7px;
+    padding: 25px;
+    box-shadow: 10px 5px 10px 10px rgba(53, 49, 49, 0.2), 10px 5px 10px 10px rgba(72, 65, 65, 0.19) ;
+
+    
+}
+.rddiv img{
+    margin-top: 30px;
+    width: 30%;
+    border-radius: 50%;
+
+}
+
+.rh{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+    
+}
+.icon{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: center;
+    list-style: none;
+    color: rgb(232, 214, 8);
+
+}
+.mocto{
+    margin-top: 50px;
+    background: rgba(0, 0, 0, 0.33) url("./anh/image/chefs\ 04.jpg");
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+.moc{
+    display: grid;
+    grid-template-columns: auto auto;
+   margin-left: 70px;
+}
+
+
+.moch1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    color: rgb(9, 212, 50);
+   
+
+}
+
+.moc div{
+   
+    width: 80%;
+    height: 600px;
+    border-radius: 8px;
+    justify-content: center;
+    color: aliceblue;
+    margin-left: 0px !important;
+
+}
+.mocct{
+    padding-left: 50px;
+    padding-top: 100px;
+    text-align: center;
+}
+.moc img{
+    width: 100%;
+    height: 600px;
+    border-radius: 8px;
+
+}
+.ctus{
+    margin-top: 50px;
+    height: 800px;
+    background-color: black;
+    
+}
+.ctusnho{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 100px;
+    gap: 20px;
+    width: 70%;
+    margin-left: 20%;
+}
+
+.ctush1{
+    padding-top: 50px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+
+}
+.ctus1 button{
+    transition-duration: 0.2s;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(46, 187, 187);
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.ctus1 button:hover{
+    background-color: white; /* white */
+    border: 1px solid;
+    color: rgb(46, 187, 187);
+}
+.metqua{
+
+    margin-top: 50px;
+    background: rgba(0, 0, 0, 0.33) url("./anh/image/10.jpg");
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.metquadiv{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.metquadivicon{
+    size: 30px;
+}
+.metquadiv div{
+    width: 400px;
+    height: 400px;
+    list-style-type: none;
+    margin-top: 100px;
+    text-align: center;
+    color: aliceblue;
+}
+.footer{
+    background-color: black;
+    height: 300px;
+
+}
+
+.grid_footer{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    
+    gap: 10px;
+    height: 300px;
+    padding-top: 100px;
+}
+.grid_footer div{
+    width: 100%;
+}
+.logo_footer{
+    width: 60%;
+    
+}
+.cpright{
+    color: white;
+    margin-top: 10%;
+}
+.icon_footer{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto ;
+   
+}
+.icon_footer div{
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+     background-color: rgb(37, 191, 168);
+     margin-left: 20px;
+}
